@@ -1,0 +1,15 @@
+{
+  "name": "check-merge-type",
+  "manifest_version": 2,
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://github.com/*"
+      ],
+      "js": [
+        "contentScripts.tsx"
+      ]
+    }
+  ]
+}
